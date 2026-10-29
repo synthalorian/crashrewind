@@ -1,0 +1,21 @@
+======================
+Proton: 1718052839 proton-9.0-2
+SteamGameId: 1145360
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleGame/ExampleGame.exe']
+Options: {'forcelgadd'}
+depot: 0.20240610.91380
+pressure-vessel: 0.20240610.0 scout
+scout: 0.20240610.0 soldier
+soldier: 0.20240610.91380 soldier 0.20240610.91380
+kernel: Linux 6.9.3-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64
+language: LC_ALL None, LC_MESSAGES None, LC_CTYPE None
+======================
+ProtonFixes[1234] INFO: Running protonfixes
+ProtonFixes[1234] INFO: No protonfix found for 1145360
+fsync: up and running.
+1234.567:0124:0128:err:module:import_dll Library VCRUNTIME140.dll (which is needed by L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ExampleGame\\ExampleGame.exe") not found
+1234.567:0124:0128:err:module:import_dll Library MSVCP140.dll (which is needed by L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ExampleGame\\ExampleGame.exe") not found
+1234.568:0124:0128:err:module:import_dll Library d3dcompiler_47.dll (which is needed by L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ExampleGame\\engine.dll") not found
+1234.568:0124:0128:err:module:import_dll Library engine.dll (which is needed by L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ExampleGame\\ExampleGame.exe") not found
+1234.568:0124:0128:err:module:LdrInitializeThunk Importing dlls for L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ExampleGame\\ExampleGame.exe" failed, status c0000135
+pid 1240 != 1239, skipping destruction (fork without exec?)

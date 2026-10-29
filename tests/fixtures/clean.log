@@ -1,0 +1,14 @@
+======================
+Proton: 1729700000 proton-9.0-3
+SteamGameId: 620
+Command: ['/home/user/.local/share/Steam/steamapps/common/Portal 2/portal2.exe']
+kernel: Linux 6.11.5-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64
+======================
+fsync: up and running.
+info:  DXVK: v2.5
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x3b0c5e0
+info:  Found device: AMD Radeon RX 7800 XT (RADV NAVI32) (radv 24.2.5)
+info:  Creating device: AMD Radeon RX 7800 XT (RADV NAVI32)
+0120:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0120:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 000000000031FE60
+pid 1350 != 1349, skipping destruction (fork without exec?)

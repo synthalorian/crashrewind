@@ -1,0 +1,12 @@
+======================
+Proton: 1729700000 proton-9.0-3
+SteamGameId: 1172470
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleArena/start_protected_game.exe']
+kernel: Linux 6.11.5-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64
+======================
+fsync: up and running.
+0108:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0108:trace:loaddll:build_module Loaded L"C:\\Program Files (x86)\\EasyAntiCheat_EOS\\EasyAntiCheat_EOS.exe" at 0000000140000000: native
+[EasyAntiCheat] Launch Error: Untrusted system file (C:\windows\system32\ntdll.dll)
+[EasyAntiCheat] Game failed to initialize anti-cheat (error 30005)
+0108:err:service:process_send_command service protocol error - failed to write pipe!

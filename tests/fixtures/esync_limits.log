@@ -1,0 +1,14 @@
+======================
+Proton: 1706189723 proton-8.0-5
+SteamGameId: 230410
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleShooter/game/bin/win64/Shooter.exe']
+kernel: Linux 5.15.0-91-generic #101-Ubuntu SMP x86_64
+======================
+fsync: futex_waitv not supported
+esync: up and running.
+0154:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0154:err:esync:create_esync Failed to create esync object: Too many open files
+0154:err:esync:create_esync Failed to create esync object: Too many open files
+0154:err:esync:create_esync Failed to create esync object: Too many open files
+0160:err:esync:create_esync Failed to create esync object: Too many open files
+0160:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 000000000031FE60

@@ -1,0 +1,11 @@
+======================
+Proton: 1718052839 proton-9.0-2
+SteamGameId: 413150
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleFarm/ExampleFarm.exe']
+kernel: Linux 6.9.3-arch1-1 #1 SMP PREEMPT_DYNAMIC x86_64
+======================
+fsync: up and running.
+00fc:err:mscoree:CLRRuntimeInfo_GetRuntimeHost Wine Mono is not installed
+00fc:err:mscoree:load_mono Wine Mono is not installed
+00fc:fixme:mscoree:parse_supported_runtime sku=L".NETFramework,Version=v4.5.2" not implemented
+00fc:err:mscoree:_CorExeMain Failed to load mono runtime, status 80004005

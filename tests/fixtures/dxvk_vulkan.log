@@ -1,0 +1,21 @@
+======================
+Proton: 1722957371 proton-9.0-3
+SteamGameId: 489830
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleRPG/ExampleRPG.exe']
+kernel: Linux 6.8.0-45-generic #45-Ubuntu SMP PREEMPT_DYNAMIC x86_64
+======================
+esync: up and running.
+info:  Game: ExampleRPG.exe
+info:  DXVK: v2.4
+info:  Build: x86_64 v2.4
+info:  Found built-in config:
+info:  Effective configuration:
+info:    d3d11.cachedDynamicResources = a
+warn:  Skipping Vulkan 1.1 adapter: llvmpipe (LLVM 17.0.6, 256 bits)
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x3a8d5b0
+info:  Required Vulkan extension VK_KHR_surface not supported
+err:   DxvkInstance: Failed to create Vulkan 1.3 instance
+err:   DXGI: CreateDXGIFactory2: Failed to create Vulkan instance
+00e4:err:vulkan:vkCreateInstance failed VK_ERROR_INCOMPATIBLE_DRIVER
+00e4:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+wine: Unhandled page fault on read access to 0000000000000000 at address 0000000140A1B2C3 (thread 00e4), starting debugger...

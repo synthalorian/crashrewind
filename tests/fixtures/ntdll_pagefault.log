@@ -1,0 +1,23 @@
+======================
+Proton: 1729700000 proton-experimental
+SteamGameId: 1091500
+Command: ['/home/user/.local/share/Steam/steamapps/common/ExampleCity/bin/x64/ExampleCity.exe']
+kernel: Linux 6.11.5-zen1-1-zen #1 ZEN SMP PREEMPT_DYNAMIC x86_64
+======================
+fsync: up and running.
+info:  DXVK: v2.5
+info:  Vulkan: Found vkGetInstanceProcAddr in winevulkan.dll @ 0x3b0c5e0
+0128:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0128:fixme:hid:handle_IRP_MN_QUERY_ID Unhandled type 00000005
+wine: Unhandled page fault on write access to 00007FFE1C3B0010 at address 00006FFFFFE81234 (thread 0128), starting debugger...
+0130:err:seh:NtRaiseException Unhandled exception code c0000005 flags 0 addr 0x6ffffffe81234
+Unhandled exception: page fault on write access to 0x7ffe1c3b0010 in 64-bit code (0x00006fffffe81234).
+Register dump:
+ rip:00006fffffe81234 rsp:000000000011f8a0 rbp:000000000011f950 eflags:00010246 (  R- --  I  Z- -P- )
+Backtrace:
+=>0 0x00006fffffe81234 RtlRaiseException+0x34() in ntdll (0x000000000011f950)
+  1 0x0000000140a1b2c3 in examplecity (+0xa1b2c3) (0x000000000011fa00)
+Modules:
+Module  Address                 Debug info      Name (134 modules)
+PE         140000000-       14ab3d000   Deferred        examplecity
+PE      6fffffe40000-    6ffffffd8000   Deferred        ntdll
